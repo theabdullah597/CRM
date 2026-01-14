@@ -1,0 +1,45 @@
+.hero {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+    color: white;
+    text-align: center;
+}
+
+.processSection {
+    padding: 6rem 0;
+}
+
+.processGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.step {
+    text-align: center;
+    position: relative;
+}
+
+.stepNumber {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--surface);
+    line-height: 1;
+    margin-bottom: -1.5rem;
+    position: relative;
+    z-index: 0;
+}
+
+.stepTitle {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 1;
+}
+
+.stepDesc {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

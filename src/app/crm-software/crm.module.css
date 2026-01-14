@@ -1,0 +1,74 @@
+.hero {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--primary) 0%, #1e293b 100%);
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    opacity: 0.9;
+    color: #e2e8f0;
+}
+
+.section {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.sectionAlt {
+    background-color: var(--primary-ulight);
+    padding: 5rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.featureCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.featureTitle {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.featureList {
+    list-style: none;
+    padding: 0;
+}
+
+.featureList li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.featureList li::before {
+    content: "✓";
+    color: var(--accent);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 3rem;
+}

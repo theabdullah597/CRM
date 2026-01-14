@@ -1,0 +1,70 @@
+.page {
+    padding: 4rem 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, var(--background) 0%, var(--primary-ulight) 100%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.info {
+    padding-right: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+}
+
+.contactItem {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background: var(--surface);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.details h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.details p,
+.details a {
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .info {
+        padding-right: 0;
+    }
+}

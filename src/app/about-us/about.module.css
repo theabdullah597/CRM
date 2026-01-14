@@ -1,0 +1,50 @@
+.hero {
+    padding: 6rem 0;
+    background: var(--primary-ulight);
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.textBlock {
+    margin-bottom: 3rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+.textBlock p {
+    margin-bottom: 1.5rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+    padding: 3rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.statItem {
+    text-align: center;
+}
+
+.statValue {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.statLabel {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

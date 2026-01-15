@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable} suppressHydrationWarning={true}>
-        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', paddingTop: 'var(--header-height)' }}>
           <Header />
           {children}
           <Footer />

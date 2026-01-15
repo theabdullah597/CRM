@@ -16,6 +16,9 @@ export const Header = () => {
                 </Link>
 
                 <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>
+                    <Link href="/" className={styles.navLink} onClick={() => setIsMenuOpen(false)}>
+                        Home
+                    </Link>
                     <Link href="/crm-software" className={styles.navLink} onClick={() => setIsMenuOpen(false)}>
                         CRM Software
                     </Link>

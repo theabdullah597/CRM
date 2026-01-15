@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/Button';
 import styles from './custom.module.css';
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: 'Custom Software Development | Lux Distributor',
@@ -44,17 +45,19 @@ export default function CustomSoftware() {
                     </div>
                     <div>
                         {/* Visual placeholder */}
-                        <div style={{
-                            background: 'var(--surface)',
-                            height: '100%',
-                            minHeight: '300px',
-                            borderRadius: '12px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: 'var(--text-muted)'
-                        }}>
-                            Software Interface Placeholder
+                        <div style={{ position: 'relative', height: '100%', minHeight: '300px' }}>
+                            <Image
+                                src="/images/custom_software_dashboard_v2.png"
+                                alt="Custom Software Dashboard Interface"
+                                width={600}
+                                height={400}
+                                style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    borderRadius: '12px',
+                                    boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
+                                }}
+                            />
                         </div>
                     </div>
                 </div>

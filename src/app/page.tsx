@@ -141,12 +141,26 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className={styles.ctaSection}>
-        <div className="container">
-          <h2 className={styles.ctaTitle} style={{ color: 'white' }}>Ready to optimize your business?</h2>
-          <p className={styles.ctaText}>
+        <div className="container" style={{ textAlign: 'center', padding: '5rem 1rem' }}>
+          <h2 className={styles.ctaTitle} style={{ color: 'white', fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+            Ready to optimize your business?
+          </h2>
+          <p className={styles.ctaText} style={{ color: 'white', fontSize: '1.2rem', marginBottom: '2.5rem', opacity: 0.9 }}>
             Join other UK businesses streamlining their operations with Lux Distributor.
           </p>
-          <Button href="/contact" style={{ backgroundColor: 'green', border: '1px solid var(--primary)', color: 'var(--primary)' }}>
+          <Button 
+            href="/contact" 
+            style={{ 
+              backgroundColor: '#ffffff', 
+              color: 'var(--primary)', 
+              padding: '1rem 2.5rem', 
+              fontSize: '1.1rem', 
+              fontWeight: '700',
+              borderRadius: '6px',
+              boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+              border: '1px solid var(--primary)',
+            }}
+          >
             Book a Demo Today
           </Button>
         </div>
